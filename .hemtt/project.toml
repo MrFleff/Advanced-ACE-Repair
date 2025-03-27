@@ -1,0 +1,14 @@
+name = "Advanced ACE Repair"
+prefix = "aid"
+mainprefix = "z"
+[hemtt.launch.default]
+workshop = [
+    "450814997", # CBA
+    "463939057", # ACE3
+]
+
+[version]
+major = 1 # Overrides path when set
+minor = 0
+patch = 4
+build = 3
