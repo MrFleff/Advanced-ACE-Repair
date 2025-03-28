@@ -10,30 +10,30 @@ class advrepair_dialog_MinorParts
 		class Main_Frame: RscFrame
 		{
 			idc = 1800;
-			x = 0.346512 * safezoneW + safezoneX;
-			y = 0.291 * safezoneH + safezoneY;
-			w = 0.306977 * safezoneW;
-			h = 0.374 * safezoneH;
+			x = QUOTE(0.346512 * safezoneW + safezoneX);
+			y = QUOTE(0.291 * safezoneH + safezoneY);
+			w = QUOTE(0.306977 * safezoneW);
+			h = QUOTE(0.374 * safezoneH);
 		};
 		class Main_Background: RscText
 		{
 			idc = 1801;
-			x = 0.346512 * safezoneW + safezoneX;
-			y = 0.291 * safezoneH + safezoneY;
-			w = 0.306977 * safezoneW;
-			h = 0.374 * safezoneH;
+			x = QUOTE(0.346512 * safezoneW + safezoneX);
+			y = QUOTE(0.291 * safezoneH + safezoneY);
+			w = QUOTE(0.306977 * safezoneW);
+			h = QUOTE(0.374 * safezoneH);
 			colorBackground[] = {0, 0, 0, 0.7};
 		};
 		class Main_ListBox: RscListNBox
 		{
 			idc = 1400;
 			type = CT_LISTNBOX;
-			x = 0.350349 * safezoneW + safezoneX;
-			y = 0.335 * safezoneH + safezoneY;
-			w = 0.299302 * safezoneW;
-			h = 0.319 * safezoneH;
+			x = QUOTE(0.350349 * safezoneW + safezoneX);
+			y = QUOTE(0.335 * safezoneH + safezoneY);
+			w = QUOTE(0.299302 * safezoneW);
+			h = QUOTE(0.319 * safezoneH);
 			columns[] = {0, 0.25, 0.55};
-			sizeEx = 0.025 * safezoneH;
+			sizeEx = QUOTE(0.025 * safezoneH);
 			
 			class ListScrollBar : ScrollBar //ListScrollBar is class name required for Arma 3
 			{
@@ -51,74 +51,74 @@ class advrepair_dialog_MinorParts
 		{
 			idc = 1401;
 			type = CT_LISTNBOX;
-			x = 0.350349 * safezoneW + safezoneX;
-			y = 0.302 * safezoneH + safezoneY;
-			w = 0.299302 * safezoneW;
-			h = 0.022 * safezoneH;
+			x = QUOTE(0.350349 * safezoneW + safezoneX);
+			y = QUOTE(0.302 * safezoneH + safezoneY);
+			w = QUOTE(0.299302 * safezoneW);
+			h = QUOTE(0.022 * safezoneH);
 			columns[] = {0, 0.25, 0.55};
-			sizeEx = 0.025 * safezoneH;
+			sizeEx = QUOTE(0.025 * safezoneH);
 		};
 		class Main_PageChangeMainPage: RscButton
 		{
 			idc = 1601;
 			text = "Main Parts"; //--- ToDo: Localize;
-			x = 0.423256 * safezoneW + safezoneX;
-			y = 0.676 * safezoneH + safezoneY;
-			w = 0.072907 * safezoneW;
-			h = 0.033 * safezoneH;
-			sizeEx = 0.025 * safezoneH;
+			x = QUOTE(0.423256 * safezoneW + safezoneX);
+			y = QUOTE(0.676 * safezoneH + safezoneY);
+			w = QUOTE(0.072907 * safezoneW);
+			h = QUOTE(0.033 * safezoneH);
+			sizeEx = QUOTE(0.025 * safezoneH);
 		};
 		class Main_PageChangeMajorParts: RscButton
 		{
 			idc = 1602;
 			text = "Major Parts"; //--- ToDo: Localize;
-			x = 0.346512 * safezoneW + safezoneX;
-			y = 0.676 * safezoneH + safezoneY;
-			w = 0.072907 * safezoneW;
-			h = 0.033 * safezoneH;
-			sizeEx = 0.025 * safezoneH;
+			x = QUOTE(0.346512 * safezoneW + safezoneX);
+			y = QUOTE(0.676 * safezoneH + safezoneY);
+			w = QUOTE(0.072907 * safezoneW);
+			h = QUOTE(0.033 * safezoneH);
+			sizeEx = QUOTE(0.025 * safezoneH);
 		};
 		class Main_PageChangeFuelStats: RscButton
 		{
 			idc = 1603;
 			text = "Fuel Stats"; //--- ToDo: Localize;
-			x = 0.503837 * safezoneW + safezoneX;
-			y = 0.676 * safezoneH + safezoneY;
-			w = 0.072907 * safezoneW;
-			h = 0.033 * safezoneH;
-			sizeEx = 0.025 * safezoneH;
+			x = QUOTE(0.503837 * safezoneW + safezoneX);
+			y = QUOTE(0.676 * safezoneH + safezoneY);
+			w = QUOTE(0.072907 * safezoneW);
+			h = QUOTE(0.033 * safezoneH);
+			sizeEx = QUOTE(0.025 * safezoneH);
 		};
 		class Main_PageChangeAmmoStats: RscButton
 		{
 			idc = 1604;
 			text = "Ammo Stats"; //--- ToDo: Localize;
-			x = 0.580581 * safezoneW + safezoneX;
-			y = 0.676 * safezoneH + safezoneY;
-			w = 0.072907 * safezoneW;
-			h = 0.033 * safezoneH;
-			sizeEx = 0.025 * safezoneH;
+			x = QUOTE(0.580581 * safezoneW + safezoneX);
+			y = QUOTE(0.676 * safezoneH + safezoneY);
+			w = QUOTE(0.072907 * safezoneW);
+			h = QUOTE(0.033 * safezoneH);
+			sizeEx = QUOTE(0.025 * safezoneH);
 		};
 		class Main_RepairPart: RscButton
 		{
 			idc = 1605;
 			onButtonClick = QUOTE([] call FUNC(guiRepairPart));
 			text = "Repair Selected Part"; //--- ToDo: Localize;
-			x = 0.350349 * safezoneW + safezoneX;
-			y = 0.236 * safezoneH + safezoneY;
-			w = 0.134302 * safezoneW;
-			h = 0.044 * safezoneH;
-			sizeEx = 0.025 * safezoneH;
+			x = QUOTE(0.350349 * safezoneW + safezoneX);
+			y = QUOTE(0.236 * safezoneH + safezoneY);
+			w = QUOTE(0.134302 * safezoneW);
+			h = QUOTE(0.044 * safezoneH);
+			sizeEx = QUOTE(0.025 * safezoneH);
 		};
 		class Main_RemovePart: RscButton
 		{
 			idc = 1607;
 			onButtonClick = QUOTE([] call FUNC(guiRepairAllPart));
 			text = "Repair All Parts After Selection"; //--- ToDo: Localize;
-			x = 0.515349 * safezoneW + safezoneX;
-			y = 0.236 * safezoneH + safezoneY;
-			w = 0.134302 * safezoneW;
-			h = 0.044 * safezoneH;
-			sizeEx = 0.025 * safezoneH;
+			x = QUOTE(0.515349 * safezoneW + safezoneX);
+			y = QUOTE(0.236 * safezoneH + safezoneY);
+			w = QUOTE(0.134302 * safezoneW);
+			h = QUOTE(0.044 * safezoneH);
+			sizeEx = QUOTE(0.025 * safezoneH);
 		};
 	};
 };

@@ -29,9 +29,6 @@
         <Key ID="STR_ace_advrepair_DefaultRepair_Displayname">
             <English>Default</English>
         </Key>
-        <Key ID="STR_ace_advrepair_DefaultRepair_Displayname">
-            <English>Default</English>
-        </Key>
         <Key ID="STR_ace_advrepair_TrackRepair_Displayname">
             <English>Tracks</English>
         </Key>
@@ -621,9 +618,6 @@
         </Key>
         <Key ID="STR_ACE_advrepair_RepairMajorPart">
             <English>Repair Part</English>
-        </Key>
-        <Key ID="STR_ACE_advrepair_OpenRepairGUI">
-            <English>Diagnose Vehicle</English>
         </Key>
         <Key ID="STR_ACE_advrepair_OpenningRepairGUI">
             <English>Diagnosing...</English>

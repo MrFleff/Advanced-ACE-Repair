@@ -172,7 +172,7 @@ class RscText
 	shadow = 1;
 	colorShadow[] = {0,0,0,0.5};
 	font = "RobotoCondensed";
-	SizeEx = GUI_TEXT_SIZE_MEDIUM;
+	SizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	linespacing = 1;
 	tooltipColorText[] = {1,1,1,1};
 	tooltipColorBox[] = {1,1,1,1};
@@ -190,7 +190,7 @@ class RscTitle: RscText
 	w = 0.7;
 	shadow = 0;
 	style = ST_LEFT;
-	sizeEx = GUI_TEXT_SIZE_MEDIUM;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	colorText[] = {0.95,0.95,0.95,1};
 	font = "PuristaMedium";
 };
@@ -289,56 +289,56 @@ class RscHTML
 	{
 		font = "RobotoCondensed";
 		fontBold = "RobotoCondensedBold";
-		sizeEx = GUI_TEXT_SIZE_LARGE;
+		sizeEx = QUOTE(GUI_TEXT_SIZE_LARGE);
 		align = "left";
 	};
 	class H2
 	{
 		font = "RobotoCondensed";
 		fontBold = "RobotoCondensedBold";
-		sizeEx = GUI_TEXT_SIZE_MEDIUM;
+		sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 		align = "right";
 	};
 	class H3
 	{
 		font = "RobotoCondensed";
 		fontBold = "RobotoCondensedBold";
-		sizeEx = GUI_TEXT_SIZE_MEDIUM;
+		sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 		align = "left";
 	};
 	class H4
 	{
 		font = "RobotoCondensed";
 		fontBold = "RobotoCondensedBold";
-		sizeEx = GUI_TEXT_SIZE_MEDIUM;
+		sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 		align = "left";
 	};
 	class H5
 	{
 		font = "RobotoCondensed";
 		fontBold = "RobotoCondensedBold";
-		sizeEx = GUI_TEXT_SIZE_MEDIUM;
+		sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 		align = "left";
 	};
 	class H6
 	{
 		font = "RobotoCondensed";
 		fontBold = "RobotoCondensedBold";
-		sizeEx = GUI_TEXT_SIZE_MEDIUM;
+		sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 		align = "left";
 	};
 	class P
 	{
 		font = "RobotoCondensed";
 		fontBold = "RobotoCondensedBold";
-		sizeEx = GUI_TEXT_SIZE_MEDIUM;
+		sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 		align = "left";
 	};
 	x = 0;
 	y = 0;
 	w = 0.1;
 	h = 0.1;
-	sizeEx = GUI_TEXT_SIZE_MEDIUM;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	prevPage = "\A3\ui_f\data\gui\rsccommon\rschtml\arrow_left_ca.paa";
 	nextPage = "\A3\ui_f\data\gui\rsccommon\rschtml\arrow_right_ca.paa";
 	shadow = 2;
@@ -390,7 +390,7 @@ class RscButton
 	h = 0.039216;
 	shadow = 2;
 	font = "RobotoCondensed";
-	sizeEx = GUI_TEXT_SIZE_MEDIUM;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	url = "";
 	offsetX = 0;
 	offsetY = 0;
@@ -415,14 +415,14 @@ class RscShortcutButton
 	class ShortcutPos
 	{
 		left = 0;
-		top = ((GUI_GRID_HAbs / 20) - GUI_TEXT_SIZE_MEDIUM) / 2;
-		w = GUI_TEXT_SIZE_MEDIUM * (3/4);
-		h = GUI_TEXT_SIZE_MEDIUM;
+		top = QUOTE(((GUI_GRID_HAbs / 20) - GUI_TEXT_SIZE_MEDIUM) / 2);
+		w = QUOTE(GUI_TEXT_SIZE_MEDIUM * (3/4));
+		h = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	};
 	class TextPos
 	{
-		left = GUI_TEXT_SIZE_MEDIUM * (3/4);
-		top = ((GUI_GRID_HAbs / 20) - GUI_TEXT_SIZE_MEDIUM) / 2;
+		left = QUOTE(GUI_TEXT_SIZE_MEDIUM * (3/4));
+		top = QUOTE(((GUI_GRID_HAbs / 20) - GUI_TEXT_SIZE_MEDIUM) / 2);
 		right = 0.005;
 		bottom = 0;
 	};
@@ -483,13 +483,13 @@ class RscShortcutButton
 	default = 0;
 	shadow = 1;
 	w = 0.183825;
-	h = (GUI_GRID_HAbs / 20);
+	h = QUOTE((GUI_GRID_HAbs / 20));
 	textSecondary = "";
 	colorSecondary[] = {1,1,1,1};
 	colorFocusedSecondary[] = {1,1,1,1};
 	color2Secondary[] = {0.95,0.95,0.95,1};
 	colorDisabledSecondary[] = {1,1,1,0.25};
-	sizeExSecondary = GUI_TEXT_SIZE_MEDIUM;
+	sizeExSecondary = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	fontSecondary = "RobotoCondensed";
 	animTextureDefault = "\A3\ui_f\data\GUI\RscCommon\RscShortcutButton\normal_ca.paa";
 	animTextureNormal = "\A3\ui_f\data\GUI\RscCommon\RscShortcutButton\normal_ca.paa";
@@ -501,8 +501,8 @@ class RscShortcutButton
 	periodOver = 0.8;
 	period = 0.4;
 	font = "RobotoCondensed";
-	size = GUI_TEXT_SIZE_MEDIUM;
-	sizeEx = GUI_TEXT_SIZE_MEDIUM;
+	size = QUOTE(GUI_TEXT_SIZE_MEDIUM);
+	sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	text = "";
 	url = "";
 	action = "";
@@ -543,7 +543,7 @@ class RscEdit
 	style = ST_FRAME;
 	font = "RobotoCondensed";
 	shadow = 2;
-	sizeEx = GUI_TEXT_SIZE_MEDIUM;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	canModify = 1;
 	tooltipColorText[] = {1,1,1,1};
 	tooltipColorBox[] = {1,1,1,1};
@@ -597,7 +597,7 @@ class RscCombo
 	};
 	style = ST_MULTI + ST_NO_RECT;
 	font = "RobotoCondensed";
-	sizeEx = GUI_TEXT_SIZE_MEDIUM;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	shadow = 0;
 	x = 0;
 	y = 0;
@@ -658,7 +658,7 @@ class RscListBox
 	h = 0.3;
 	style = LB_TEXTURES;
 	font = "RobotoCondensed";
-	sizeEx = GUI_TEXT_SIZE_MEDIUM;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	shadow = 0;
 	colorShadow[] = {0,0,0,0.5};
 	period = 1.2;
@@ -700,7 +700,7 @@ class RscListNBox
 	style = ST_MULTI;
 	shadow = 0;
 	font = "RobotoCondensed";
-	sizeEx = GUI_TEXT_SIZE_MEDIUM;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	color[] = {0.95,0.95,0.95,1};
 	colorDisabled[] = {1,1,1,0.25};
 	colorPicture[] = {1,1,1,1};
@@ -751,7 +751,7 @@ class RscXListBox
 	w = 0.14706;
 	h = 0.039216;
 	font = "RobotoCondensed";
-	sizeEx = GUI_TEXT_SIZE_MEDIUM;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 };
 class RscTree
 {
@@ -787,7 +787,7 @@ class RscTree
 	shadow = 0;
 	style = ST_LEFT;
 	font = "RobotoCondensed";
-	sizeEx = GUI_TEXT_SIZE_MEDIUM;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	expandedTexture = "A3\ui_f\data\gui\rsccommon\rsctree\expandedTexture_ca.paa";
 	hiddenTexture = "A3\ui_f\data\gui\rsccommon\rsctree\hiddenTexture_ca.paa";
 	x = 0;
@@ -887,7 +887,7 @@ class RscActiveText
 	w = 0.035;
 	font = "RobotoCondensed";
 	shadow = 2;
-	sizeEx = GUI_TEXT_SIZE_MEDIUM;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	url = "";
 	tooltipColorText[] = {1,1,1,1};
 	tooltipColorBox[] = {1,1,1,1};
@@ -915,7 +915,7 @@ class RscStructuredText
 	h = 0.035;
 	w = 0.1;
 	text = "";
-	size = GUI_TEXT_SIZE_MEDIUM;
+	size = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	shadow = 1;
 };
 class RscControlsGroup
@@ -998,7 +998,7 @@ class RscToolbox
 	rows = 1;
 	columns = 2;
 	font = "RobotoCondensed";
-	sizeEx = GUI_TEXT_SIZE_SMALL;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_SMALL);
 };
 class RscMapControl
 {
@@ -1035,18 +1035,18 @@ class RscMapControl
 	colorMainRoadsFill[] = {1,0.6,0.4,1};
 	colorGrid[] = {0.1,0.1,0.1,0.6};
 	colorGridMap[] = {0.1,0.1,0.1,0.6};
-	stickX[] = {0.2,["Gamma",1,1.5]};
-	stickY[] = {0.2,["Gamma",1,1.5]};
+	stickX[] = {0.2,{"Gamma",1,1.5}};
+	stickY[] = {0.2,{"Gamma",1,1.5}};
 	class Legend
 	{
 		colorBackground[] = {1,1,1,0.5};
 		color[] = {0,0,0,1};
-		x = SafeZoneX + GUI_GRID_W;
-		y = SafeZoneY + safezoneH - 4.5 * GUI_GRID_H;
-		w = 10 * GUI_GRID_W;
-		h = 3.5 * GUI_GRID_H;
+		x = QUOTE(SafeZoneX + GUI_GRID_W);
+		y = QUOTE(SafeZoneY + safezoneH - 4.5 * GUI_GRID_H);
+		w = QUOTE(10 * GUI_GRID_W);
+		h = QUOTE(3.5 * GUI_GRID_H);
 		font = "RobotoCondensed";
-		sizeEx = GUI_TEXT_SIZE_SMALL;
+		sizeEx = QUOTE(GUI_TEXT_SIZE_SMALL);
 	};
 	class ActiveMarker
 	{
@@ -1317,9 +1317,9 @@ class RscMapControl
 	};
 	moveOnEdges = 1;
 	x = "SafeZoneXAbs";
-	y = SafeZoneY + 1.5 * GUI_GRID_H;
+	y = QUOTE(SafeZoneY + 1.5 * GUI_GRID_H);
 	w = "SafeZoneWAbs";
-	h = SafeZoneH - 1.5 * GUI_GRID_H;
+	h = QUOTE(SafeZoneH - 1.5 * GUI_GRID_H);
 	shadow = 0;
 	ptsPerSquareSea = 5;
 	ptsPerSquareTxt = 20;
@@ -1341,15 +1341,15 @@ class RscMapControl
 	colorTrailsFill[] = {0.84,0.76,0.65,0.65};
 	widthRailWay = 4;
 	fontLabel = "RobotoCondensed";
-	sizeExLabel = GUI_TEXT_SIZE_SMALL;
+	sizeExLabel = QUOTE(GUI_TEXT_SIZE_SMALL);
 	fontGrid = "TahomaB";
 	sizeExGrid = 0.02;
 	fontUnits = "TahomaB";
-	sizeExUnits = GUI_TEXT_SIZE_SMALL;
+	sizeExUnits = QUOTE(GUI_TEXT_SIZE_SMALL);
 	fontNames = "RobotoCondensed";
-	sizeExNames = GUI_TEXT_SIZE_SMALL * 2;
+	sizeExNames = QUOTE(GUI_TEXT_SIZE_SMALL * 2);
 	fontInfo = "RobotoCondensed";
-	sizeExInfo = GUI_TEXT_SIZE_SMALL;
+	sizeExInfo = QUOTE(GUI_TEXT_SIZE_SMALL);
 	fontLevel = "TahomaB";
 	sizeExLevel = 0.02;
 	text = "#(argb,8,8,3)color(1,1,1,1)";
@@ -1551,7 +1551,7 @@ class RscActivePicture: RscActiveText
 };
 class RscButtonTextOnly: RscButton
 {
-	SizeEx = GUI_TEXT_SIZE_SMALL;
+	SizeEx = QUOTE(GUI_TEXT_SIZE_SMALL);
 	colorBackground[] = {1,1,1,0};
 	colorBackgroundActive[] = {1,1,1,0};
 	colorBackgroundDisabled[] = {1,1,1,0};
@@ -1578,14 +1578,14 @@ class RscShortcutButtonMain: RscShortcutButton
 	class ShortcutPos
 	{
 		left = 0.0145;
-		top = ((GUI_GRID_HAbs / 20) - GUI_TEXT_SIZE_LARGE) / 2;
-		w = GUI_TEXT_SIZE_LARGE * (3/4);
-		h = GUI_TEXT_SIZE_LARGE;
+		top = QUOTE(((GUI_GRID_HAbs / 20) - GUI_TEXT_SIZE_LARGE) / 2);
+		w = QUOTE(GUI_TEXT_SIZE_LARGE * (3/4));
+		h = QUOTE(GUI_TEXT_SIZE_LARGE);
 	};
 	class TextPos
 	{
-		left = (GUI_GRID_WAbs / 32) * 1.5;
-		top = ((GUI_GRID_HAbs / 20)*2 - GUI_TEXT_SIZE_LARGE) / 2;
+		left = QUOTE((GUI_GRID_WAbs / 32) * 1.5);
+		top = QUOTE(((GUI_GRID_HAbs / 20)*2 - GUI_TEXT_SIZE_LARGE) / 2);
 		right = 0.005;
 		bottom = 0;
 	};
@@ -1597,8 +1597,8 @@ class RscShortcutButtonMain: RscShortcutButton
 	animTextureDefault = "\A3\ui_f\data\GUI\RscCommon\RscShortcutButtonMain\normal_ca.paa";
 	period = 0.5;
 	font = "RobotoCondensed";
-	size = GUI_TEXT_SIZE_LARGE;
-	sizeEx = GUI_TEXT_SIZE_LARGE;
+	size = QUOTE(GUI_TEXT_SIZE_LARGE);
+	sizeEx = QUOTE(GUI_TEXT_SIZE_LARGE);
 	text = "";
 	action = "";
 	class Attributes
@@ -1627,7 +1627,7 @@ class RscButtonEditor: RscShortcutButton
 	class TextPos
 	{
 		left = 0;
-		top = ((GUI_GRID_HAbs / 20) - GUI_TEXT_SIZE_MEDIUM) / 2;
+		top = QUOTE(((GUI_GRID_HAbs / 20) - GUI_TEXT_SIZE_MEDIUM) / 2);
 		right = 0;
 		bottom = 0;
 	};
@@ -1742,20 +1742,20 @@ class RscButtonMenu: RscShortcutButton
 	colorFocusedSecondary[] = {0,0,0,1};
 	color2Secondary[] = {0,0,0,1};
 	colorDisabledSecondary[] = {1,1,1,0.25};
-	sizeExSecondary = GUI_TEXT_SIZE_MEDIUM;
+	sizeExSecondary = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	fontSecondary = "PuristaLight";
 	period = 1.2;
 	periodFocus = 1.2;
 	periodOver = 1.2;
-	size = GUI_TEXT_SIZE_MEDIUM;
-	sizeEx = GUI_TEXT_SIZE_MEDIUM;
+	size = QUOTE(GUI_TEXT_SIZE_MEDIUM);
+	sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	tooltipColorText[] = {1,1,1,1};
 	tooltipColorBox[] = {1,1,1,1};
 	tooltipColorShade[] = {0,0,0,0.65};
 	class TextPos
 	{
-		left = 0.25 * GUI_GRID_W;
-		top = (GUI_GRID_H - GUI_TEXT_SIZE_MEDIUM) / 2;
+		left = QUOTE(0.25 * GUI_GRID_W);
+		top = QUOTE((GUI_GRID_H - GUI_TEXT_SIZE_MEDIUM) / 2);
 		right = 0.005;
 		bottom = 0;
 	};
@@ -1768,10 +1768,10 @@ class RscButtonMenu: RscShortcutButton
 	};
 	class ShortcutPos
 	{
-		left = 5.25 * GUI_GRID_W;
+		left = QUOTE(5.25 * GUI_GRID_W);
 		top = 0;
-		w = 1 * GUI_GRID_W;
-		h = 1 * GUI_GRID_H;
+		w = QUOTE(1 * GUI_GRID_W);
+		h = QUOTE(1 * GUI_GRID_H);
 	};
 	soundEnter[] =
 	{
@@ -1833,7 +1833,7 @@ class RscButtonMenuSteam: RscButtonMenu
 	class TextPos
 	{
 		left = 0.0325;
-		top = (GUI_GRID_H - GUI_TEXT_SIZE_MEDIUM) / 2;
+		top = QUOTE((GUI_GRID_H - GUI_TEXT_SIZE_MEDIUM) / 2);
 		right = 0.005;
 		bottom = 0;
 	};
@@ -1852,7 +1852,7 @@ class RscLoadingText: RscText
 	y = 0.666672;
 	w = 0.411768;
 	h = 0.039216;
-	sizeEx = GUI_TEXT_SIZE_MEDIUM;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 	colorText[] = {1,1,1,1};
 };
 class RscIGUIListBox: RscListBox
@@ -1866,7 +1866,7 @@ class RscIGUIListBox: RscListBox
 	colorSelectBackground2[] = {0,0,0,1};
 	period = 0;
 	colorBackground[] = {0,0,0,0};
-	sizeEx = GUI_TEXT_SIZE_SMALL;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_SMALL);
 	class ScrollBar: ScrollBar
 	{
 	};
@@ -1984,10 +1984,10 @@ class RscBackgroundLogo: RscPictureKeepAspect
 	text = "\A3\Ui_f\data\Logos\arma3_splash_ca.paa";
 	align = "top";
 	background = 1;
-	x = safezoneX + safezoneW - (9 * (GUI_GRID_WAbs / 32));
-	y = safezoneY - 2 * (GUI_GRID_HAbs / 20);
-	w = (8 * (GUI_GRID_WAbs / 32));
-	h = (8 * (GUI_GRID_HAbs / 20));
+	x = QUOTE(safezoneX + safezoneW - (9 * (GUI_GRID_WAbs / 32)));
+	y = QUOTE(safezoneY - 2 * (GUI_GRID_HAbs / 20));
+	w = QUOTE((8 * (GUI_GRID_WAbs / 32)));
+	h = QUOTE((8 * (GUI_GRID_HAbs / 20)));
 };
 class RscMapControlEmpty: RscMapControl
 {
@@ -2278,10 +2278,10 @@ class RscEditMultiReadOnly: RscEdit
 };
 class RscMapSignalBackground: RscText
 {
-	x = 12.5 * GUI_GRID_W + (safezoneX + (safezoneW - GUI_GRID_WAbs)/2);
-	y = 10 * GUI_GRID_H + (safezoneY + (safezoneH - GUI_GRID_HAbs)/2);
-	w = 15.5 * GUI_GRID_W;
-	h = 5 * GUI_GRID_H;
+	x = QUOTE(12.5 * GUI_GRID_W + (safezoneX + (safezoneW - GUI_GRID_WAbs)/2));
+	y = QUOTE(10 * GUI_GRID_H + (safezoneY + (safezoneH - GUI_GRID_HAbs)/2));
+	w = QUOTE(15.5 * GUI_GRID_W);
+	h = QUOTE(5 * GUI_GRID_H);
 	colorBackground[] = {0.1,0.1,0.1,0.8};
 };
 class RscMapSignalPicture: RscPicture
@@ -2294,10 +2294,10 @@ class RscMapSignalPicture: RscPicture
 		"(profilenamespace getvariable ['IGUI_WARNING_RGB_A',0.8])"
 	};
 	text = "\A3\ui_f\data\map\diary\signal_ca.paa";
-	x = 19 * GUI_GRID_W + (safezoneX + (safezoneW - GUI_GRID_WAbs)/2);
-	y = 10.5 * GUI_GRID_H + (safezoneY + (safezoneH - GUI_GRID_HAbs)/2);
-	w = 2 * GUI_GRID_W;
-	h = 2 * GUI_GRID_H;
+	x = QUOTE(19 * GUI_GRID_W + (safezoneX + (safezoneW - GUI_GRID_WAbs)/2));
+	y = QUOTE(10.5 * GUI_GRID_H + (safezoneY + (safezoneH - GUI_GRID_HAbs)/2));
+	w = QUOTE(2 * GUI_GRID_W);
+	h = QUOTE(2 * GUI_GRID_H);
 };
 class RscMapSignalText: RscText
 {
@@ -2310,11 +2310,11 @@ class RscMapSignalText: RscText
 		"(profilenamespace getvariable ['IGUI_WARNING_RGB_A',0.8])"
 	};
 	text = "Cannot connect to the positioning system.";
-	x = 13 * GUI_GRID_W + (safezoneX + (safezoneW - GUI_GRID_WAbs)/2);
-	y = 13.5 * GUI_GRID_H + (safezoneY + (safezoneH - GUI_GRID_HAbs)/2);
-	w = 14.5 * GUI_GRID_W;
-	h = 1 * GUI_GRID_H;
-	sizeEx = 0.8 * GUI_GRID_H;
+	x = QUOTE(13 * GUI_GRID_W + (safezoneX + (safezoneW - GUI_GRID_WAbs)/2));
+	y = QUOTE(13.5 * GUI_GRID_H + (safezoneY + (safezoneH - GUI_GRID_HAbs)/2));
+	w = QUOTE(14.5 * GUI_GRID_W);
+	h = QUOTE(1 * GUI_GRID_H);
+	sizeEx = QUOTE(0.8 * GUI_GRID_H);
 };
 class RscColorPicker: RscControlsGroupNoScrollbars
 {
@@ -2338,10 +2338,10 @@ class RscInterlacingScreen: RscPicture
 class RscFeedback: RscHTML
 {
 	idc = 6455;
-	x = 1 * GUI_GRID_W + GUI_GRID_X;
+	x = QUOTE(1 * GUI_GRID_W + GUI_GRID_X);
 	y = "safezoneY";
-	w = 15 * GUI_GRID_W;
-	h = 1 * GUI_GRID_H;
+	w = QUOTE(15 * GUI_GRID_W);
+	h = QUOTE(1 * GUI_GRID_H);
 	colorBackground[] = {0.67451,0.290196,0.290196,1};
 	colorLink[] = {1,1,1,1};
 	colorLinkActive[] = {1,1,1,1};
@@ -2350,7 +2350,7 @@ class RscFeedback: RscHTML
 	{
 		font = "RobotoCondensedBold";
 		fontBold = "RobotoCondensedBold";
-		sizeEx = GUI_TEXT_SIZE_MEDIUM;
+		sizeEx = QUOTE(GUI_TEXT_SIZE_MEDIUM);
 		align = "center";
 	};
 };
@@ -2362,10 +2362,10 @@ class RscTrafficLight: RscActiveText
 	colorActive[] = {1,1,1,1};
 	text = "\A3\Ui_f\data\GUI\RscCommon\RscTrafficLight\TrafficLight_ca.paa";
 	tooltip = "You are running a modded version of the game. Click to see the list of active mods.";
-	x = SafezoneX + SafezoneW - (2 * GUI_GRID_W);
-	y = 23 * GUI_GRID_H + GUI_GRID_Y;
-	w = 1 * GUI_GRID_W;
-	h = 1 * GUI_GRID_H;
+	x = QUOTE(SafezoneX + SafezoneW - (2 * GUI_GRID_W));
+	y = QUOTE(23 * GUI_GRID_H + GUI_GRID_Y);
+	w = QUOTE(1 * GUI_GRID_W);
+	h = QUOTE(1 * GUI_GRID_H);
 };
 class RscButtonSearch: RscButton
 {
@@ -2378,7 +2378,7 @@ class RscButtonSearch: RscButton
 };
 class RscIGUIText: RscText
 {
-	sizeEx = GUI_TEXT_SIZE_SMALL;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_SMALL);
 	colorText[] =
 	{
 		"(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
@@ -2401,7 +2401,7 @@ class RscOpticsValue: RscOpticsText
 };
 class RscIGUIValue: RscIGUIText
 {
-	sizeEx = GUI_TEXT_SIZE_SMALL;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_SMALL);
 	colorText[] =
 	{
 		"(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
@@ -2451,10 +2451,10 @@ class RscButtonTestCentered: RscButton
 class RscDisplaySingleMission_ChallengeOverviewGroup: RscControlsGroupNoHScrollbars
 {
 	idc = 2302;
-	x = 17 * GUI_GRID_W + (safezoneX + (safezoneW - GUI_GRID_WAbs)/2);
-	y = SafezoneY + (18.4 * GUI_GRID_H) + (0.5 * (safezoneH - GUI_GRID_HAbs));
-	w = 22 * GUI_GRID_W;
-	h = 3.5 * GUI_GRID_H + (0.5 * (safezoneH - GUI_GRID_HAbs));
+	x = QUOTE(17 * GUI_GRID_W + (safezoneX + (safezoneW - GUI_GRID_WAbs)/2));
+	y = QUOTE(SafezoneY + (18.4 * GUI_GRID_H) + (0.5 * (safezoneH - GUI_GRID_HAbs)));
+	w = QUOTE(22 * GUI_GRID_W);
+	h = QUOTE(3.5 * GUI_GRID_H + (0.5 * (safezoneH - GUI_GRID_HAbs)));
 	class controls
 	{
 	};
@@ -2466,10 +2466,10 @@ class RscDisplayDebriefing_RscTextMultiline: RscText
 class RscDisplayDebriefing_ListGroup: RscControlsGroupNoHScrollbars
 {
 	idc = 21903;
-	x = 2.2 * GUI_GRID_W + (safezoneX + (safezoneW - GUI_GRID_WAbs)/2);
-	y = 8.9 * GUI_GRID_H + (safezoneY + (safezoneH - GUI_GRID_HAbs)/2);
-	w = 36.8 * GUI_GRID_W;
-	h = 12.2 * GUI_GRID_H;
+	x = QUOTE(2.2 * GUI_GRID_W + (safezoneX + (safezoneW - GUI_GRID_WAbs)/2));
+	y = QUOTE(8.9 * GUI_GRID_H + (safezoneY + (safezoneH - GUI_GRID_HAbs)/2));
+	w = QUOTE(36.8 * GUI_GRID_W);
+	h = QUOTE(12.2 * GUI_GRID_H);
 	class controls
 	{
 	};
@@ -2558,8 +2558,8 @@ class RscButtonDiaryMenu: RscButton
 {
 	idc = -1;
 	style = ST_CENTER + ST_MULTI + ST_TITLE_BAR + ST_KEEP_ASPECT_RATIO;
-	w = 4 * GUI_GRID_W;
-	h = 4 * GUI_GRID_H;
+	w = QUOTE(4 * GUI_GRID_W);
+	h = QUOTE(4 * GUI_GRID_H);
 	colorFocused[] = {0.1,0.1,0.1,0.6};
 	colorBackground[] = {0.1,0.1,0.1,0};
 	colorBackgroundActive[] = {0.1,0.1,0.1,0.3};
@@ -2723,7 +2723,7 @@ class CA_Ok_image2: RscText
 };
 class CA_Ok_text: RscText
 {
-	sizeEx = GUI_TEXT_SIZE_SMALL;
+	sizeEx = QUOTE(GUI_TEXT_SIZE_SMALL);
 	idc = -1;
 	x = 0.86;
 	y = 0.8;
@@ -2970,7 +2970,7 @@ class ctrlControlsGroup: ctrlDefault
 	h = 1;
 	class VScrollBar: ScrollBar
 	{
-		width = 2 * GRID_W;
+		width = QUOTE(2 * GRID_W);
 		height = 0;
 		autoScrollEnabled = 0;
 		autoScrollDelay = 1;
@@ -2980,7 +2980,7 @@ class ctrlControlsGroup: ctrlDefault
 	class HScrollBar: ScrollBar
 	{
 		width = 0;
-		height = 2 * GRID_H;
+		height = QUOTE(2 * GRID_H);
 	};
 	onCanDestroy = "";
 	onDestroy = "";
@@ -3001,24 +3001,25 @@ class ctrlControlsGroupNoHScrollbars: ctrlControlsGroup
 };
 class ctrlControlsGroupNoVScrollbars: ctrlControlsGroup
 {
-	class VScrollbar: VScrollBar
+	class VScrollBar: VScrollBar
 	{
 		width = 0;
 	};
 };
 class ctrlControlsGroupNoScrollbars: ctrlControlsGroup
 {
-	class VScrollbar: VScrollBar
+	class VScrollBar: VScrollBar
 	{
 		width = 0;
 	};
-	class HScrollbar: HScrollBar
+	class HScrollBar: HScrollBar
 	{
 		height = 0;
 	};
 };
 class ctrlStructuredText: ctrlDefaultText
 {
+    number = 10;
 	type = CT_STRUCTURED_TEXT;
 	colorBackground[] = {0,0,0,0};
 	size = "4.32 * (1 / (getResolution select 3)) * pixelGrid * 0.5";
@@ -3338,7 +3339,7 @@ class ctrlCombo: ctrlDefaultText
 	colorPictureRightDisabled[] = {1,1,1,0.25};
 	arrowEmpty = "\a3\3DEN\Data\Controls\ctrlCombo\arrowEmpty_ca.paa";
 	arrowFull = "\a3\3DEN\Data\Controls\ctrlCombo\arrowFull_ca.paa";
-	wholeHeight = 12 * 5 * GRID_H;
+	wholeHeight = QUOTE(12 * 5 * GRID_H);
 	maxHistoryDelay = 1;
 	soundExpand[] =
 	{
@@ -3396,7 +3397,7 @@ class ctrlComboToolbar: ctrlCombo
 	};
 	arrowEmpty = "\a3\3DEN\Data\Controls\ctrlCombo\arrowEmptyToolbar_ca.paa";
 	arrowFull = "\a3\3DEN\Data\Controls\ctrlCombo\arrowEmptyToolbar_ca.paa";
-	wholeHeight = 12 * 5 * GRID_H;
+	wholeHeight = QUOTE(12 * 5 * GRID_H);
 };
 class ctrlListbox: ctrlDefaultText
 {
@@ -3835,7 +3836,7 @@ class ctrlShortcutButtonSteam: ctrlShortcutButton
 	textureNoShortcut = "\a3\3DEN\Data\Controls\CtrlShortcutButton\steam_ca.paa";
 	class TextPos
 	{
-		left = 1.5 * 5 * GRID_W;
+		left = QUOTE(1.5 * 5 * GRID_W);
 		top = 0;
 		right = 0;
 		bottom = 0;
@@ -3844,8 +3845,8 @@ class ctrlShortcutButtonSteam: ctrlShortcutButton
 	{
 		left = 0;
 		top = 0;
-		w = 5 * GRID_W;
-		h = 5 * GRID_H;
+		w = QUOTE(5 * GRID_W);
+		h = QUOTE(5 * GRID_H);
 	};
 };
 class ctrlXListbox: ctrlDefaultText
