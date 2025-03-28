@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ACE">
+    <Package name="advrepair">
+        <Key ID="STR_advrepair_main_AdvMajorRepair">
+            <English>Repair Part</English>
+        </Key>
+        <Key ID="STR_advrepair_main_AdvMajorRepaired">
+            <English>Repair Complete</English>
+        </Key>
+        <Key ID="STR_advrepair_main_Avionics_Displayname">
+            <English>Avionics</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ControlSurfaces_Displayname">
+            <English>Control Surfaces</English>
+        </Key>
+        <Key ID="STR_advrepair_main_DefaultRepair_Displayname">
+            <English>Default</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ERARep_Displayname">
+            <English>Explosive Reactive Armor (ERA)</English>
+        </Key>
+        <Key ID="STR_advrepair_main_EngPistonLarge_Displayname">
+            <English>Engine Piston Large</English>
+        </Key>
+        <Key ID="STR_advrepair_main_EngPistonMedium_Displayname">
+            <English>Engine Piston Medium</English>
+        </Key>
+        <Key ID="STR_advrepair_main_EngPistonSmall_Displayname">
+            <English>Engine Piston Small</English>
+        </Key>
+        <Key ID="STR_advrepair_main_EngTurbineLarge_Displayname">
+            <English>Engine Turbine Large</English>
+        </Key>
+        <Key ID="STR_advrepair_main_EngTurbineSmall_Displayname">
+            <English>Engine Turbine Small</English>
+        </Key>
+        <Key ID="STR_advrepair_main_FuelTankLarge_Displayname">
+            <English>Fuel Tank Large</English>
+        </Key>
+        <Key ID="STR_advrepair_main_FuelTankSmall_Displayname">
+            <English>Fuel Tank Small</English>
+        </Key>
+        <Key ID="STR_advrepair_main_GunFCSRepair_Displayname">
+            <English>Gun FCS</English>
+        </Key>
+        <Key ID="STR_advrepair_main_Hull0_Displayname">
+            <English>Level 0 Armor Hull/Body (Cars)</English>
+        </Key>
+        <Key ID="STR_advrepair_main_Hull1_Displayname">
+            <English>Level 1 Armor Hull/Body (MRAPs)</English>
+        </Key>
+        <Key ID="STR_advrepair_main_Hull2_Displayname">
+            <English>Level 2 Armor Hull/Body (Tanks)</English>
+        </Key>
+        <Key ID="STR_advrepair_main_MajorPartRepairLocations_Description">
+            <English>At what location can major part repairs be performed?</English>
+        </Key>
+        <Key ID="STR_advrepair_main_MajorPartRepairLocations_DisplayName">
+            <English>Major Repair Locations</English>
+        </Key>
+        <Key ID="STR_advrepair_main_MajorPartRepairPerms_Description">
+            <English>Who can perform major repair on a vehicle?</English>
+        </Key>
+        <Key ID="STR_advrepair_main_MajorPartRepairPerms_DisplayName">
+            <English>Allow Major Repair</English>
+        </Key>
+        <Key ID="STR_advrepair_main_OpenRepairGUI">
+            <English>Diagnose Vehicle</English>
+        </Key>
+        <Key ID="STR_advrepair_main_OpenningRepairGUI">
+            <English>Diagnosing...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemoveAvionics">
+            <English>Remove Avionics</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemoveControlsurfaces">
+            <English>Remove Control Surface</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemoveEnginepistonlarge">
+            <English>Remove Large Piston Engine</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemoveEnginepistonmedium">
+            <English>Remove Medium Piston Engine</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemoveEnginepistonsmall">
+            <English>Remove Small Piston Engine</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemoveEngineturbinelarge">
+            <English>Remove Large Turbine Engine</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemoveEngineturbinesmall">
+            <English>Remove Small Turbine Engine</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemoveFueltanklarge">
+            <English>Remove Large Fuel Tank</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemoveFueltanksmall">
+            <English>Remove Small Fuel Tank</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemoveGunFCS">
+            <English>Remove Gun FCS</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemoveLandingGear">
+            <English>Remove LandingGear</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemoveRotorAssembly">
+            <English>Remove RotorAssembly</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemoveTransmission">
+            <English>Remove Transmission</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemoveTurretdrive">
+            <English>Remove Turret Drive</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovedAvionics">
+            <English>Avionics removed</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovedControlsurfaces">
+            <English>Control Surface removed</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovedEnginepistonlarge">
+            <English>Large Piston Engine removed</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovedEnginepistonmedium">
+            <English>Medium Piston Engine removed</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovedEnginepistonsmall">
+            <English>Small Piston Engine removed</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovedEngineturbinelarge">
+            <English>Large Turbine Engine removed</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovedEngineturbinesmall">
+            <English>Small Turbine Engine removed</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovedFueltanklarge">
+            <English>Large Fuel Tank removed</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovedFueltanksmall">
+            <English>Small Fuel Tank removed</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovedGunFCS">
+            <English>Gun FCS removed</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovedLandingGear">
+            <English>LandingGear removed</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovedRotorAssembly">
+            <English>RotorAssembly removed</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovedTransmission">
+            <English>Transmission removed</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovedTurretdrive">
+            <English>Turret Drive removed</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovingAvionics">
+            <English>Removing Avionics...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovingControlsurfaces">
+            <English>Removing Control Surface...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovingEnginepistonlarge">
+            <English>Removing Large Piston Engine...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovingEnginepistonmedium">
+            <English>Removing Medium Piston Engine...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovingEnginepistonsmall">
+            <English>Removing Small Piston Engine...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovingEngineturbinelarge">
+            <English>Removing Large Turbine Engine...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovingEngineturbinesmall">
+            <English>Removing Small Turbine Engine...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovingFueltanklarge">
+            <English>Removing Large Fuel Tank...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovingFueltanksmall">
+            <English>Removing Small Fuel Tank...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovingGunFCS">
+            <English>Removing Gun FCS...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovingLandingGear">
+            <English>Removing LandingGear...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovingRotorAssembly">
+            <English>Removing RotorAssembly...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovingTransmission">
+            <English>Removing Transmission...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RemovingTurretdrive">
+            <English>Removing Turret Drive...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RepairCost_Description">
+            <English>Determines the percentage healed per Spare Part item spent.</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RepairMajorPart">
+            <English>Repair Part</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RepairingMajorPart">
+            <English>Repairing Part</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplaceAvionics">
+            <English>Change Avionics</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplaceControlsurfaces">
+            <English>Change Control Surface</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplaceEnginepistonlarge">
+            <English>Change Large Piston Engine</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplaceEnginepistonmedium">
+            <English>Change Medium Piston Engine</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplaceEnginepistonsmall">
+            <English>Change Small Piston Engine</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplaceEngineturbinelarge">
+            <English>Change Large Turbine Engine</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplaceEngineturbinesmall">
+            <English>Change Small Turbine Engine</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplaceFueltanklarge">
+            <English>Change Large Fuel Tank</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplaceFueltanksmall">
+            <English>Change Small Fuel Tank</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplaceGunFCS">
+            <English>Change Gun FCS</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplaceRotorAssembly">
+            <English>Change RotorAssembly</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplaceTurretdrive">
+            <English>Change Turret Drive</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacedAvionics">
+            <English>Avionics replaced</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacedControlsurfaces">
+            <English>Control Surface replaced</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacedEnginepistonlarge">
+            <English>Large Piston Engine replaced</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacedEnginepistonmedium">
+            <English>Medium Piston Engine replaced</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacedEnginepistonsmall">
+            <English>Small Piston Engine replaced</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacedEngineturbinelarge">
+            <English>Large Turbine Engine replaced</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacedEngineturbinesmall">
+            <English>Small Turbine Engine replaced</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacedFueltanklarge">
+            <English>Large Fuel Tank replaced</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacedFueltanksmall">
+            <English>Small Fuel Tank replaced</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacedGunFCS">
+            <English>Gun FCS replaced</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacedLandingGear">
+            <English>LandingGear replaced</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacedRotorAssembly">
+            <English>RotorAssembly replaced</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacedTransmission">
+            <English>Transmission replaced</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacedTurretdrive">
+            <English>Turret Drive replaced</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacingAvionics">
+            <English>Replacing  Avionics...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacingControlsurfaces">
+            <English>Replacing  Control Surface...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacingEnginepistonlarge">
+            <English>Replacing  Large Piston Engine...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacingEnginepistonmedium">
+            <English>Replacing  Medium Piston Engine...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacingEnginepistonsmall">
+            <English>Replacing  Small Piston Engine...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacingEngineturbinelarge">
+            <English>Replacing  Large Turbine Engine...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacingEngineturbinesmall">
+            <English>Replacing  Small Turbine Engine...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacingFueltanklarge">
+            <English>Replacing  Large Fuel Tank...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacingFueltanksmall">
+            <English>Replacing  Small Fuel Tank...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacingGunFCS">
+            <English>Replacing  Gun FCS...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacingLandingGear">
+            <English>Replacing  LandingGear...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacingRotorAssembly">
+            <English>Replacing  RotorAssembly...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacingTransmission">
+            <English>Replacing  Transmission...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_ReplacingTurretdrive">
+            <English>Replacing  Turret Drive...</English>
+        </Key>
+        <Key ID="STR_advrepair_main_RotorAssembly_Displayname">
+            <English>Rotor Assembly</English>
+        </Key>
+        <Key ID="STR_advrepair_main_Track">
+            <English>Track</English>
+        </Key>
+        <Key ID="STR_advrepair_main_TrackRepair_Displayname">
+            <English>Tracks</English>
+        </Key>
+        <Key ID="STR_advrepair_main_TurretDrive_Displayname">
+            <English>Turret Drive</English>
+        </Key>
+        <Key ID="STR_advrepair_main_WheelRepair_Displayname">
+            <English>Wheels</English>
+        </Key>
+        <Key ID="STR_advrepair_main_logisticsparts">
+            <English>FL Logistics Parts</English>
+        </Key>
+        <Key ID="STR_advrepair_main_part_SpareParts">
+            <English>Spare Parts Box [Advanced Repair]</English>
+        </Key>
+        <Key ID="STR_advrepair_main_part_SparePartsLarge">
+            <English>Spare Parts Crate [Advanced Repair]</English>
+        </Key>
+        <Key ID="STR_advrepair_main_part_avionics">
+            <English>Avionics [Advanced Repair]</English>
+        </Key>
+        <Key ID="STR_advrepair_main_part_controlsurfaces">
+            <English>Control Surfaces [Advanced Repair]</English>
+        </Key>
+        <Key ID="STR_advrepair_main_part_enginepistonlarge">
+            <English>Piston Engine Large [Advanced Repair]</English>
+        </Key>
+        <Key ID="STR_advrepair_main_part_enginepistonmedium">
+            <English>Piston Engine Medium [Advanced Repair]</English>
+        </Key>
+        <Key ID="STR_advrepair_main_part_enginepistonsmall">
+            <English>Piston Engine Small [Advanced Repair]</English>
+        </Key>
+        <Key ID="STR_advrepair_main_part_engineturbinelarge">
+            <English>Turbine Engine Large [Advanced Repair]</English>
+        </Key>
+        <Key ID="STR_advrepair_main_part_engineturbinesmall">
+            <English>Turbine Engine Small [Advanced Repair]</English>
+        </Key>
+        <Key ID="STR_advrepair_main_part_fueltanklarge">
+            <English>Fueltank Large [Advanced Repair]</English>
+        </Key>
+        <Key ID="STR_advrepair_main_part_fueltanksmall">
+            <English>Fueltank Small [Advanced Repair]</English>
+        </Key>
+        <Key ID="STR_advrepair_main_part_gunfcs">
+            <English>Gun FCS [Advanced Repair]</English>
+        </Key>
+        <Key ID="STR_advrepair_main_part_rotorassembly">
+            <English>Rotor Assembly [Advanced Repair]</English>
+        </Key>
+        <Key ID="STR_advrepair_main_part_turretdrive">
+            <English>Turret Drive [Advanced Repair]</English>
+        </Key>
+        <Key ID="STR_advrepair_main_parts">
+            <English>Vehicle Parts [Advanced Repair]</English>
+        </Key>
+    </Package>
+</Project>
